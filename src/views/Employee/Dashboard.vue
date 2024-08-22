@@ -44,7 +44,7 @@
                         <td class="border-b border-slate-300 pl-4 text-sm h-10" v-if="quizeInfo.total_marks_info_student != null">
                       {{quizeInfo.total_marks_info_student.totalMarks}}
                         </td>
-                        <td class="border-b border-slate-300 pl-4 text-sm h-10" v-else>
+                        <td class="border-b border-slate-300 pl-4 text-sm h-10"v1 v-else>
 
                         </td>
                         <td class="border-b border-slate-300 pl-4 text-sm h-10">

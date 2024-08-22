@@ -30,7 +30,7 @@
                     />
                     {{ option.question_option }}<br />
                   </div>
-                  <span class="font-bold">Currect Answer:</span>  <span v-for="(answer,index) in dataInfo.answer_info"><spna class="font-bold">{{++index}}. &nbsp;</spna>{{ answer.question_attribute_info.question_option }}&nbsp;</span>
+                  <span class="font-bold">Currect Answer:</span>  <span v-for="(answer,index) in dataInfo.answer_info"><spna class="font-bold">{{answer.question_attribute_info.question_number}}. &nbsp;</spna>{{ answer.question_attribute_info.question_option }}&nbsp;</span>
                 </li>
               </ul>
             </tbody>
