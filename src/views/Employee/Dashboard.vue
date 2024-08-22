@@ -24,7 +24,7 @@
               <th class="border border-slate-300">Quize Name</th>
              
               <th class="border border-slate-300">Quize Marks</th>
-              <th class="border border-slate-300">Quize Time</th>
+              <th class="border border-slate-300">Your Marks</th>
               <th class="border border-slate-300">Action</th>
             </tr>
           </thead>
@@ -41,8 +41,11 @@
                           {{ quizeInfo.total_marks_info.totalMarks }}
                         </td>
                       
-                        <td class="border-b border-slate-300 pl-4 text-sm h-10">
-                      {{quizeInfo.quize_time}}
+                        <td class="border-b border-slate-300 pl-4 text-sm h-10" v-if="quizeInfo.total_marks_info_student != null">
+                      {{quizeInfo.total_marks_info_student.totalMarks}}
+                        </td>
+                        <td class="border-b border-slate-300 pl-4 text-sm h-10" v-else>
+
                         </td>
                         <td class="border-b border-slate-300 pl-4 text-sm h-10">
                           <router-link
