@@ -16,7 +16,7 @@ import './axios';
 
 const app = createApp(App);
 
-const baseUrl='http://localhost/loyelapi/public/api';
+const baseUrl='http://localhost/quizetestapi/public/api';
 
 
 app.provide('$baseUrl', baseUrl);

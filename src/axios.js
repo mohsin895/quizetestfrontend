@@ -1,2 +1,2 @@
 import axios from 'axios'; 
- axios.defaults.baseURL= 'http://localhost/loyelapi/public/api';
+ axios.defaults.baseURL= 'http://localhost/quizetestapi/public/api';

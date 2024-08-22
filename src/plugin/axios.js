@@ -9,7 +9,7 @@ const axiosInstance = ref(null);
 // Set up Axios instance
 const setupAxios = () => {
   axiosInstance.value = axios.create({
-    baseURL: 'http://localhost/loyelapi/public/api/staff/',
+    baseURL: 'http://localhost/quizetestapi/public/api/staff/',
   });
 };
 

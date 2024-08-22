@@ -9,14 +9,14 @@
                 <h5 
                 v-on:click="activetab='1'" v-bind:class="[ activetab === '1' ? 'active' : '' ]"
                 class="p-2 cursor-pointer">
-                Employee
+                Student
                 </h5>
            </span>
            <span v-bind:class="[ activetab === '2' ? 'active-margin' : '' ]">
                 <h5 
                 v-on:click="activetab='2'" v-bind:class="[ activetab === '2' ? 'active' : '' ]"
                 style="margin-left: 10px;" class="p-2 cursor-pointer">
-                Manager
+                Admin
                 </h5>
               </span>
            

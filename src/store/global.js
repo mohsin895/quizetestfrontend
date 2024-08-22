@@ -8,7 +8,7 @@ export const useGlobalStore = defineStore('global', {
   }),
   actions: {
     async fetchGlobalData() {
-      const globalUrl = 'http://localhost/loyelapi/public/api/get/setting/info'
+      const globalUrl = 'http://localhost/quizetestapi/public/api/get/setting/info'
      
       try {
         const response = await axios.get(globalUrl)
